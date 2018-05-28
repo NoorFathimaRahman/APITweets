@@ -12,4 +12,4 @@ c) Run the command "dotnet run"  -- this command would complile the project and 
 d) if you get an error while executing the command (step c) stating "couldn't find a project to run" , then go in "CoreTweetsApp" folder and run the same command 
 
 
-A working project may look the attached images,please refer : Result-APITweets.PNG , Result_With_Duplicate.PNG
+A working project may look the attached images,please refer :APITweets/Result-APITweets.PNG , APITweets/Result_With_Duplicate.PNG
