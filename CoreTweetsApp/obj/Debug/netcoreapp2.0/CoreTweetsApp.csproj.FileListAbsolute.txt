@@ -1,0 +1,11 @@
+C:\Code\CoreTweetsApp\CoreTweetsApp\bin\Debug\netcoreapp2.0\CoreTweetsApp.deps.json
+C:\Code\CoreTweetsApp\CoreTweetsApp\bin\Debug\netcoreapp2.0\CoreTweetsApp.runtimeconfig.json
+C:\Code\CoreTweetsApp\CoreTweetsApp\bin\Debug\netcoreapp2.0\CoreTweetsApp.runtimeconfig.dev.json
+C:\Code\CoreTweetsApp\CoreTweetsApp\bin\Debug\netcoreapp2.0\CoreTweetsApp.dll
+C:\Code\CoreTweetsApp\CoreTweetsApp\bin\Debug\netcoreapp2.0\CoreTweetsApp.pdb
+C:\Code\CoreTweetsApp\CoreTweetsApp\obj\Debug\netcoreapp2.0\CoreTweetsApp.csprojAssemblyReference.cache
+C:\Code\CoreTweetsApp\CoreTweetsApp\obj\Debug\netcoreapp2.0\CoreTweetsApp.csproj.CoreCompileInputs.cache
+C:\Code\CoreTweetsApp\CoreTweetsApp\obj\Debug\netcoreapp2.0\CoreTweetsApp.AssemblyInfoInputs.cache
+C:\Code\CoreTweetsApp\CoreTweetsApp\obj\Debug\netcoreapp2.0\CoreTweetsApp.AssemblyInfo.cs
+C:\Code\CoreTweetsApp\CoreTweetsApp\obj\Debug\netcoreapp2.0\CoreTweetsApp.dll
+C:\Code\CoreTweetsApp\CoreTweetsApp\obj\Debug\netcoreapp2.0\CoreTweetsApp.pdb

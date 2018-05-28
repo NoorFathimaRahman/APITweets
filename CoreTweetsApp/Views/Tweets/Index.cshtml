@@ -1,0 +1,59 @@
+﻿@model CoreTweetsApp.Models.TweetsViewModel
+@{
+    ViewBag.Title = "Index";
+
+}
+
+<div class="container-fluid">
+    <h2>Tweets</h2>
+    <div class="panel panel-primary">
+        <div class="panel-heading">Get Tweets for Specific Duration</div>
+        <form asp-controller="Tweets" asp-action="Index" method="post">
+            <div asp-validation-summary="All"></div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-2">
+                        Start Date
+                    </div>
+                    <div class="col-sm-3">
+                        <input asp-for="StartDate" type="datetime" placeholder="DD/MM/YYYY" id="startDate" class="form-control" name="startDate" />
+                        <span asp-validation-for="StartDate" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-2">
+                        End Date
+                    </div>
+                    <div class="col-sm-3">
+                        <input asp-for="EndDate" type="datetime" placeholder="DD/MM/YYYY" id="endDate" class="form-control" name="endDate" />
+                        <span asp-validation-for="EndDate" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="submit" value="Search" class="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            Showing Results
+        </div>
+        <div class="panel-body">
+            @{
+                <div>
+                    <h3>Total Tweets: @Model.Count </h3>
+                    <h3>Duplicates : @Model.DuplicateCount</h3>
+                    <h3>Total showing tweets (distinct) : @Model.Tweets.Count</h3>
+                </div>
+            }
+            @foreach (var twt in Model.Tweets)
+            {
+                <p>id: @twt.id</p>
+                <p>text: @twt.text</p>
+                <p>stamp: @twt.stamp</p>
+                <hr />
+            }
+        </div>
+    </div>
+</div>
+
+

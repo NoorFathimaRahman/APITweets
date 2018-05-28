@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@model List<CoreTweetsApp.Models.Tweet>
+
+    @{
+        <div>
+            <h3>Total Tweets: @Model.Count</h3>
+        </div>
+    }
+    @foreach (var tweet in Model)
+    {
+        <p>id: @tweet.id</p>
+        <p>text: @tweet.text</p>
+        <p>stamp: @tweet.stamp</p>
+        <hr />
+    }
