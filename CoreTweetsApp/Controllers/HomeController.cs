@@ -10,6 +10,7 @@ namespace CoreTweetsApp.Controllers
 {
     public class HomeController : Controller
     {
+    //This is a test
         public IActionResult Index()
         {
             return View();
